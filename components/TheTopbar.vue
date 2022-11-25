@@ -5,19 +5,21 @@
         <a href="/">home</a>
         <a href="/about">about</a>
         <a href="/dynamic">dynamic</a>
+        <a v-for="item in data" :href="item._path">{{ item._path }}</a>
     </div>
+    
 </div>
 </template>
 
 <script setup>
 const route = useRoute()
+const { data } = await useAsyncData(route.name, () => queryContent('/').find())
 </script>
 
 <style>
 .topbar {
     background-color: grey;
     text-align: center;
-    height: 80px;
     width: 100%;
     display: flex;
     justify-items: center;

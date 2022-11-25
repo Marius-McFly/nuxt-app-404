@@ -1,9 +1,11 @@
 <template>
+<PageWrapper>
     <div>
         <p>Im dynamic</p>
         <p>{{ data.title }}</p>
         <p v-if="error">{{ error }}</p>
     </div>
+</PageWrapper>
 </template>
 
 <script setup>
