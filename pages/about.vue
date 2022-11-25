@@ -1,6 +1,6 @@
 <template>
     <div class="hello">about :3</div>
-    </template>
+</template>
     
     <style>
     .about {

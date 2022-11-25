@@ -1,9 +1,13 @@
 <template>
-<div 
+<div>
+    <div 
     class="error"
     v-if="error.statusCode === 404 || '404'"
->
-	Error {{ error.statusCode }}
+    >
+        <div>Oohhpss lost</div>
+        <button @click="handleError">back home c:</button>
+        <p>Error {{ error.statusCode }}</p>
+    </div>
 </div>
 </template>
 

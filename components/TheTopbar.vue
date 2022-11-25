@@ -4,9 +4,14 @@
         <p>I'm the topbar</p>
         <a href="/">home</a>
         <a href="/about">about</a>
+        <a href="/dynamic">dynamic</a>
     </div>
 </div>
 </template>
+
+<script setup>
+const route = useRoute()
+</script>
 
 <style>
 .topbar {
