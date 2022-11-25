@@ -1,5 +1,7 @@
 <template>
+<PageWrapper>
 <div class="hello">lost for netlify</div>
+</PageWrapper>
 </template>
 
 <style>

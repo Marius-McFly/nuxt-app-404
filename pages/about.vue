@@ -1,5 +1,7 @@
 <template>
+    <PageWrapper>
     <div class="hello">about :3</div>
+</PageWrapper>
 </template>
     
     <style>
