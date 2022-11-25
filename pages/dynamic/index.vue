@@ -1,4 +1,5 @@
 <template>
-    <PageWrapper></PageWrapper>
+    <PageWrapper>
     <div>huhu dynamisch</div>
+</PageWrapper>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <PageWrapper>
+<PageWrapper>
     <div>
         <p>Im dynamic</p>
         <p>{{ data.title }}</p>
